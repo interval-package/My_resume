@@ -3,4 +3,48 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>validation</servlet-name>
+        <servlet-class>com.services.admin.validation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validation</servlet-name>
+        <url-pattern>/validation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>com.services.admin.login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>base_info</servlet-name>
+        <servlet-class>com.services.basic.base_info</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>base_info</servlet-name>
+        <url-pattern>/base_info</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>db_injection</servlet-name>
+        <servlet-class>com.services.basic.db_injection</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>db_injection</servlet-name>
+        <url-pattern>/db_injection</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
+

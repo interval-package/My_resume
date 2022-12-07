@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="My_resume" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="eclipsesource.minimal.json" />
+          <element id="library" level="project" name="sqlite-jdbc-3.7.2" />
+          <element id="library" level="project" name="google.code.gson" />
+        </element>
       </element>
     </root>
   </artifact>

@@ -1,0 +1,19 @@
+.box table{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10;
+    border: 2px solid rgb(28, 79, 96);
+    /* border-radius: 5px; */
+
+    width: 80%;
+}
+
+.box table tr:first-child{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box tr img{
+    width: 100px;
+    height: 100px;
+}
